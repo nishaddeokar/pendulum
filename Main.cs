@@ -112,7 +112,7 @@ public class Main : MonoBehaviour
         node.gameObject.SetActive(false);
         Timer();
         Damping();
-        if (Input.GetKey(KeyCode.Mouse0) && (Input.mousePosition.x > 200 || Input.mousePosition.y > 120)) //KeyCode.Mouse0 refers to the left/ primary mouse button.
+        if (Input.GetKey(KeyCode.Mouse0) && (Input.mousePosition.x > 200 || Input.mousePosition.y > 120)) //KeyCode.Mouse0 is left mouse button.
         {
             IfClicked();
         }
